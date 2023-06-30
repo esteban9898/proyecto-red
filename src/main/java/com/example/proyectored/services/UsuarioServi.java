@@ -35,7 +35,7 @@ public class UsuarioServi {
         return user;
 
     }
-   public Boolean DeleteUsuario(Long id){
+   public Boolean DeleteUSuario(Long id){
         try{
             UsuarioRepo.deleteById(id);
             return true;

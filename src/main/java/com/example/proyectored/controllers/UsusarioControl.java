@@ -40,7 +40,7 @@ public class UsusarioControl {
 
     @DeleteMapping(path ="/Eliminar/{id}")
     public String  DeleteUsuario(@PathVariable  Long id){
-        boolean ok= this.usuarioServi.DeleteUsuario(id);
+        boolean ok= this.usuarioServi.DeleteUSuario(id);
         if(ok){
             return "Usuario " + id + "eliminado";
         }else {
